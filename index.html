@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jose Ramirez / Developer 💻</title>
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">{JOSE/R}</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </header>
+    </div> 
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="img/perfil.jpg" alt="">
+            </div>
+            <h1>JOSE RAMIREZ</h1>
+            <h2>DEVELOPER FULL-STACK</h2>
+            <div class="redes">
+                <a href="https://slack.com/intl/es-co" target="_blank"><i class="fa-brands fa-slack"></i></a>
+                <a href="https://wa.me/qr/MP2SQRD3AQOML1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://join.skype.com/invite/gLkJ61fNlQdU" target="_blank"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://discord.gg/r5et4e55    " target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.linkedin.com/in/jose-ramirez-2423231b0/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jose Ramirez. </span>Soy estudiante de Desarrollo web y un apasionado por el desarrollo Full Stack, desarrollando aplicaciones web, teniendo un previo conocimiento en el desarrollo Front-End, con tecnologías como Javascript, React y Github permitiendo entender las necesidades del usuario y dar una efectiva solucion. Através del auto aprendizaje y un bootcamp que cambio mi perspectiva laboral y empezar a programar proyectos iniciales que se evidencian más adelante.</p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos presonales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            04-11-1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            313 6146945
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jr747524@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Transversal 96b 21a 70 Bogotá, Colombia
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i> 
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-money-bill"></i> 
+                            <span>FINANZAS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i> 
+                            <span>LECTURA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="/downloades/Jose Ramirez CV.pdf" download>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="contenido-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Gestión Bancaria y Entidades Financieras</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Analizar estados financieros y planificar los recursos monetarios.
+                        Analizar las propuestas de inversión y los portafolios financieros.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Devloper - Fullstack</h4>
+                        <span class="casa">Academlo</span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrollo de sitios web que integra el diseño de la experiencia del cliente en una página (front end), así como la programación y mantenimiento de la arquitectura interna del sitio (back end).</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Finanzas</h4>
+                        <span class="casa">Universidad Del Bosque</span>
+                        <span class="fecha">Cursando</span>
+                        <p>Recopilar y analizar los datos financieros para ayudar a las empresas a tomar decisiones. Tmbien hacer seguimiento de los resultados financieros de una empresa y prepara informes y proyecciones con base en sus análisis.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Asesor comercial</h4>
+                        <span class="casa">Óptica Andes</span>
+                        <span class="fecha">2017 & 2022</span>
+                        <p>Cumple funciones de asesoriamiento en salud visual analizando formulas y dando guía al paciente. Tambien brindando asesoramiento de imagen. Manejo de sistema, inventario y caja</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Agente de cobranza</h4>
+                        <span class="casa">Serlefin</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Capacitado para gestionar el pago de deudas pendientes por parte de clientes o proveedores. Manejando los aplicativos necesarios para dicha labor.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Agente de ventas</h4>
+                        <span class="casa">Tu amigo el constructor</span>
+                        <span class="fecha">2020-2023</span>
+                        <p>Construcción y ventas de predios.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-section">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Poke.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pokedex</h3>
+                        <p>React</p>
+                    </div>
+                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/Anotación 2023-06-16 082705.jpg" alt="">
+                    <div class="overlay">
+                        <h3>E-comerce básico</h3>
+                        <p>Javascript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/R&M.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Rick & Morty Data</h3>
+                        <p>React</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Weather.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Weather</h3>
+                        <p>React</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <dic class="contenido-section">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-message"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: jr747524@gmail.com
+                                </li>
+                                <li>
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    Escribenos: 3136146945
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    Teléfono: 3136146945
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </dic>
+    </section>
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-slack"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/feaa27243a.js" crossorigin="anonymous"></script>
+</body>
+</html>
