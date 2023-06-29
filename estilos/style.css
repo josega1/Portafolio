@@ -650,12 +650,18 @@ footer .arriba{
         width: 100%;
     }
     .contacto .fila{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
     .contacto .fila .col{
         width: 100%;
     }
+    
 }
-
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
